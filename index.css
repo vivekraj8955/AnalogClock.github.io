@@ -1,0 +1,52 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main{
+  position: relative;
+  height: 60vh;
+  width: 50%;
+  background: url(watch.jpg);
+  background-repeat: no-repeat; 
+  background-size: contain;
+  background-position: center;
+  margin: auto;
+  margin-top: 20vh;
+}
+#hour{
+  transform-origin: bottom;
+ background-color:black;
+ width: 10px;
+ position: absolute;
+ top: 15vh;
+ left: 49.4%;
+ height: 15vh;
+}
+#minute{
+  transform-origin: bottom;
+    background-color: black;
+    width: 5px;
+    position: absolute;
+    top: 12vh;
+    left: 49.8%;
+    height: 18vh;
+}
+#second{
+  transform-origin: bottom;
+
+    background-color: black;
+    width: 3px;
+    position: absolute;
+    top: 10vh;
+    left: 49.8%;
+    height: 20vh;
+}
+@media(max-width:1000px)
+{
+  .main{
+    width: 100%;
+
+  }
+}
